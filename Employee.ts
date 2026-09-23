@@ -1,14 +1,14 @@
 // NAME:    RYAN FORD
 // CLASS:   FEF SPA's
-// DATE:    22/09/2026
+// DATE:    23/09/2026
 
-export abstract class Employee {
-  public ssn: string;
-  public lastName: string;
-  public firstName: string;
-  public address: string;
-  public rank: number;
-  public age: number;
+export class Employee {
+  ssn: string;
+  lastName: string;
+  firstName: string;
+  address: string;
+  rank: number;
+  age: number;
 
   constructor(
     ssn: string,
