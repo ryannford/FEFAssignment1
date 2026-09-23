@@ -57,7 +57,7 @@ export class Employee {
    * @returns { Boolean } - Returns true if SSN is formatted properly (###-###-###)
    */
   protected validateSSN(): boolean {
-    let ssn = this.ssn;
+    const ssn = this.ssn;
 
     if (ssn.length !== 11 || ssn[3] !== "-" || ssn[7] !== "-") {
       throw new Error(
